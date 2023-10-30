@@ -4,6 +4,8 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_holistic = mp.solutions.holistic
 
+#cancer
+
 cap = cv2.VideoCapture(0)
 with mp_holistic.Holistic(
     min_detection_confidence=0.5,
